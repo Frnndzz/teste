@@ -18,7 +18,6 @@
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
-    <!-- EditText para título da dica -->
     <EditText
         android:id="@+id/editTextTitulo"
         android:layout_width="match_parent"
@@ -27,7 +26,6 @@
         android:hint="Título da Dica"
         android:inputType="text" />
 
-    <!-- EditText para descrição da dica -->
     <EditText
         android:id="@+id/editTextDescricao"
         android:layout_width="match_parent"
@@ -36,14 +34,19 @@
         android:hint="Descrição da Dica"
         android:inputType="text" />
 
-    <!-- Botão para adicionar a dica -->
     <Button
         android:id="@+id/buttonAdicionar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Adicionar Dica" />
 
-    <!-- RecyclerView para listar as dicas -->
+    <Button
+        android:id="@+id/buttonIntegrantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ir para Integrantes"
+        android:layout_marginTop="20dp"/>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
