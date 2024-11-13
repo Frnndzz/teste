@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.EnergiaVerde" parent="Theme.AppCompat.Light.NoActionBar">
+
+
+
+                <!-- Cor de fundo -->
+                <item name="android:windowBackground">@color/energia_background</item>
+
+                <!-- Cores principais -->
+                <item name="colorPrimary">@color/energia_verde_primary</item>
+                <item name="colorPrimaryDark">@color/energia_verde_primary_dark</item>
+                <item name="colorAccent">@color/energia_verde_accent</item>
+
+                <!-- Cores de texto -->
+                <item name="android:textColorPrimary">@color/energia_text_primary</item>
+                <item name="android:textColorSecondary">@color/energia_text_secondary</item>
+
+                <!-- Cor de botões -->
+                <item name="colorControlHighlight">@color/energia_button</item>
+                <item name="colorControlNormal">@color/energia_button</item>
+
+    </style>
+</resources>
